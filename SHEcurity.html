@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHEcurity</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .header {
+            background-color: #b22222;
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .menu {
+            font-size: 24px;
+            cursor: pointer;
+        }
+        .container {
+            padding: 50px 20px;
+        }
+        .help-btn {
+            background-color: #b22222;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            font-size: 24px;
+            cursor: pointer;
+            display: block;
+            margin: 20px auto;
+        }
+        .mic-btn {
+            background-color: #b22222;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            font-size: 24px;
+            cursor: pointer;
+            display: block;
+            margin: 20px auto;
+        }
+        .login-container {
+            max-width: 300px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .input-box {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+        .login-btn {
+            background-color: #b22222;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <span class="menu">☰</span>
+        <span>SHEcurity</span>
+        <span>📶 ON  📍 ON</span>
+    </div>
+    
+    <!-- Main Page -->
+    <div class="container">
+        <button class="help-btn">HELP</button>
+        <button class="mic-btn">🎤</button>
+    </div>
+    
+    <!-- Sign-In Page -->
+    <div class="login-container">
+        <input type="text" class="input-box" placeholder="Phone number">
+        <input type="password" class="input-box" placeholder="Password">
+        <p><a href="#">Forgot your password?</a></p>
+        <button class="login-btn">Log in</button>
+        <p>Don’t have an account? <a href="#">Sign up</a></p>
+    </div>
+</body>
+</html>
